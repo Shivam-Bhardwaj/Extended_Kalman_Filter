@@ -43,6 +43,9 @@ This project involves the Term 2 Simulator which can be downloaded [here](https:
 4. Compile: `cmake .. && make` 
    - On windows, you may need to run: `cmake .. -G "Unix Makefiles" && make`
 5. Run it: `./ExtendedKF `
+6. Run the simulator. 
+7. Select a low resolution.
+8. Press start.
 
 Here is the main protocol that main.cpp uses for uWebSocketIO in communicating with the simulator.
 
