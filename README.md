@@ -5,7 +5,7 @@ The following project is a part of Udacity’s Self Driving car engineering Nano
 
 Passing the project requires obtaining Root Mean Square Error values that are lower than the tolerance outlined in the project rubric. 
 
-![1558275791902](assets/1558275791902.png)
+![1558277568331](assets/1558277568331.png)
 
 ## The repository structure
 
