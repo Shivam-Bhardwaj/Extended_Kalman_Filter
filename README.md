@@ -7,7 +7,7 @@ Passing the project requires obtaining Root Mean Square Error values that are lo
 
 ![1558277568331](assets/1558277568331.png)
 
-## The repository structure
+## The repository structure 
 
 | Name of Folder       | Contains                                |
 | -------------------- | --------------------------------------- |
