@@ -85,13 +85,21 @@ Shivam Bhardwaj
 
 Mail to shivam.bhardwaj@nyu.edu
 
+### Accuracy
+
+As you can see in the image above my RMSE is well below <= [.11, .11, 0.52, 0.52] for X, Y, VX and VY respectively.
+
 ### Discussion
 
 To begin with I would like to thank Udacity team for compiling everything in such an amazing tutorial. Following are my take on the overall project.
 
-- When 
+- On my laptop, the RMSE values in the simulator are not displayed when I run the simulator in high resolution. As you can see below, the area under RMSE is blank ![1558278040840](assets/1558278040840.png)
 
-The code was tested on the following specifications
+- I tested my code on Jetbrains' Clion, and it worked flawlessly.
+
+### Testing specs
+
+The code was tested on the following specifications 
 
 - **CPU:** `Intel(R) Core(TM) i9-8950HK CPU @ 4.8 Ghz`
 - **GPU:** `Nvidia GeForce GTX 1050 Ti Mobile`
