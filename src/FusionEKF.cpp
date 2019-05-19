@@ -108,9 +108,9 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
         return;
     }
 
-    /**
-     * Prediction
-     */
+    /*******************************************************
+                           Prediction
+     *******************************************************/
 
     /**
      * TODO: Update the state transition matrix F according to the new elapsed time.
@@ -139,9 +139,9 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
 
     ekf_.Predict();
 
-    /**
-     * Update
-     */
+    /**********************************************************
+                                Update
+     **********************************************************/
 
     /**
      * TODO:
@@ -164,6 +164,6 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
     }
 
     // print the output
-    cout << "x_ = " << ekf_.x_ << endl;
-    cout << "P_ = " << ekf_.P_ << endl;
+    cout << "New x_ = " << ekf_.x_ << endl;
+    cout << "New P_ = " << ekf_.P_ << endl;
 }
