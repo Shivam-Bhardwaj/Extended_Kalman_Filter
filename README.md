@@ -99,6 +99,8 @@ To begin with I would like to thank Udacity team for compiling everything in suc
 - On my laptop, the RMSE values in the simulator are not displayed when I run the simulator in high resolution. As you can see below, the area under RMSE is blank ![1558278040840](assets/1558278040840.png)
 
 - I tested my code on Jetbrains' Clion, and it worked flawlessly.
+- Steps were taken to avoid repeated calculations for example as shown below (tools.cpp)![1558278416508](assets/1558278416508.png)
+- Instead of initializing EKF vales to 0, by changing them performance is improved as explained in the lectures.![1558278701984](assets/1558278701984.png)
 
 ### Testing specs
 
