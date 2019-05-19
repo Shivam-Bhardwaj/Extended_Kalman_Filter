@@ -15,8 +15,6 @@ Passing the project requires obtaining Root Mean Square Error values that are lo
 | /cmake-build-release | Build files of the project              |
 | /data                | LIDAR and RADAR data                    |
 | /src                 | source file for the project in c++      |
-| ./term2_sim.x86_64   | 64 bit version of the simulator         |
-| term2_sim_Data       | unity data for simulator                |
 | CMakeList.text       | Cmake list to build the project         |
 | install-linux.sh     | setting up web sockets on Linux systems |
 
