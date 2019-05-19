@@ -23,10 +23,8 @@ void KalmanFilter::Init(VectorXd &x_in, MatrixXd &P_in, MatrixXd &F_in,
     Q_ = Q_in;
 }
 
+// Prediction function
 void KalmanFilter::Predict() {
-    /**
-     * TODO: predict the state
-     */
     std::cout << "Initial X is " << x_ << std::endl;
     std::cout << "Initial P is " << P_ << std::endl;
     std::cout << "Initial Q is " << Q_ << std::endl;
@@ -38,6 +36,7 @@ void KalmanFilter::Predict() {
     std::cout << "Predicted P is " << P_ << std::endl;
 }
 
+// Update function
 void KalmanFilter::Update(const VectorXd &z) {
     /**
      * TODO: update the state by using Kalman Filter equations
@@ -80,6 +79,7 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
 
     std::cout << "Kalman Gain is " << K << std::endl;
 
+    // New estimate
     x_ = x_ + K * y;
 
     long x_size = x_.size();
